@@ -1,15 +1,94 @@
 <script setup lang="ts">
+import type { EChartsType } from 'echarts'
+import { init } from 'echarts'
+import data from '../data/sankey.json'
+const TOTAL_TXNS = data.transactions.length
+
 defineOptions({
   name: 'IndexPage',
 })
 
-// const name = $ref('')
+const dateFrom = $ref('2023-01-02')
+const dateTo = $ref('2023-01-03')
+const limit = $ref(200)
+let count = $ref(0)
 
-// const router = useRouter()
-// const go = () => {
-//   if (name)
-//     router.push(`/hi/${encodeURIComponent(name)}`)
-// }
+const isValidDate = (d: string) => {
+  return /\d{2}.\d{2}.\d{2}/.test(d)
+}
+
+interface LINK {
+  source: string
+  target: string
+  value: number
+  date: number
+}
+
+interface NODE {
+  name: string
+}
+
+const getNodes = (links: LINK[]): NODE[] => {
+  return links
+    .map(l => [l.source, l.target])
+    .reduce(
+      (acc, cur) => {
+        return [...acc, ...cur]
+      }, [],
+    ).filter(
+      (val, idx, arr) => arr.indexOf(val) === idx,
+    ).map((name) => { return { name } })
+}
+
+const drawSankey = (chart: EChartsType, links: LINK[]) => {
+  const nodes = getNodes(links)
+  chart.setOption(
+    {
+      title: { show: false },
+      tooltip: {
+        trigger: 'item',
+        triggerOn: 'mousemove',
+      },
+      series: [
+        {
+          type: 'sankey',
+          data: nodes,
+          links,
+          top: 0,
+          bottom: 0,
+          layoutIterations: 0,
+          emphasis: {
+            focus: 'adjacency',
+          },
+          lineStyle: {
+            color: 'gradient',
+            curveness: 0.5,
+          },
+        },
+      ],
+    },
+  )
+}
+
+let chartInstance: EChartsType
+const timestamp = (d: string) => {
+  return (new Date(d)).getTime() / 1000
+}
+const render = () => {
+  const txns = data.transactions.filter((tx) => {
+    return timestamp(dateFrom) <= tx.date && tx.date <= timestamp(dateTo)
+  })
+
+  count = txns.length
+
+  drawSankey(chartInstance, txns.slice(0, limit))
+}
+
+onMounted(() => {
+  chartInstance = init(document.getElementById('sankey')!)
+  chartInstance.hideLoading()
+  render()
+})
 </script>
 
 <template>
@@ -18,28 +97,44 @@ defineOptions({
     <p>
       Misttrack Alert Buddy
     </p>
-    <p>
-      <em text-sm op75>visualization tool</em>
-    </p>
 
-    <div py-4 />
+    <span text-blue-500>
+      total txns: {{ TOTAL_TXNS }}
+    </span>
+    <span> | </span>
+    <span text-blue-500>total txns in range: {{ count }}</span>
+    <br>
 
-    <!-- <TheInput
-      v-model="name"
-      placeholder="What's your name?"
+    <TheInput
+      v-model="dateFrom"
+      placeholder="2023/01/01 (from)"
       autocomplete="false"
-      @keydown.enter="go"
-    /> -->
+    />
 
-    <!-- <div>
-      <button
-        class="m-3 text-sm btn"
-        :disabled="!name"
-        @click="go"
-      >
-        Go
-      </button>
-    </div> -->
-    <Sankey />
+    <span m-2>-</span>
+
+    <TheInput
+      v-model="dateTo"
+      placeholder="2023/01/02 (to)"
+      autocomplete="false"
+    />
+
+    <span m-2 />
+
+    <TheInput
+      v-model="limit"
+      placeholder="limit"
+      autocomplete="false"
+    />
+
+    <button
+      class="m-4 h-8 text-sm btn"
+      bg-blue-700 hover:bg-blue-500 active:bg-blue-300
+      :disabled="!isValidDate(dateFrom) || !isValidDate(dateTo)"
+      @click="render"
+    >
+      Go
+    </button>
+    <div id="sankey" w-max-200 h-600 m-auto />
   </div>
 </template>
