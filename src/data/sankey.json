@@ -1,0 +1,1366 @@
+{
+  "nodes": [
+    {
+      "name": "#Aave (from)"
+    },
+    {
+      "name": "#Aave (to)"
+    },
+    {
+      "name": "#Balancer (from)"
+    },
+    {
+      "name": "#Balancer (to)"
+    },
+    {
+      "name": "#Binance (from)"
+    },
+    {
+      "name": "#Binance (to)"
+    },
+    {
+      "name": "#Bitfinex (from)"
+    },
+    {
+      "name": "#Bitfinex (to)"
+    },
+    {
+      "name": "#Circle (from)"
+    },
+    {
+      "name": "#Circle (to)"
+    },
+    {
+      "name": "#Cobo (from)"
+    },
+    {
+      "name": "#Coinbase (from)"
+    },
+    {
+      "name": "#Coinbase (to)"
+    },
+    {
+      "name": "#Compound (to)"
+    },
+    {
+      "name": "#Contract (from)"
+    },
+    {
+      "name": "#Contract (to)"
+    },
+    {
+      "name": "#Curve (from)"
+    },
+    {
+      "name": "#Curve (to)"
+    },
+    {
+      "name": "#Fund (from)"
+    },
+    {
+      "name": "#Fund (to)"
+    },
+    {
+      "name": "#Gate (from)"
+    },
+    {
+      "name": "#Huobi (from)"
+    },
+    {
+      "name": "#Jump-Trading (from)"
+    },
+    {
+      "name": "#Kraken (from)"
+    },
+    {
+      "name": "#Lido (to)"
+    },
+    {
+      "name": "#Null-Address (from)"
+    },
+    {
+      "name": "#Null-Address (to)"
+    },
+    {
+      "name": "#OKX (from)"
+    },
+    {
+      "name": "#OKX (to)"
+    },
+    {
+      "name": "#Tether (from)"
+    },
+    {
+      "name": "#Tether-Treasury (from)"
+    },
+    {
+      "name": "#Uniswap (from)"
+    },
+    {
+      "name": "#kraken (to)"
+    },
+    {
+      "name": "#kraken-5 (to)"
+    },
+    {
+      "name": "0x01ee57dd61b7c139eca63caced3df62143ce6f5d (from)"
+    },
+    {
+      "name": "0x01ee57dd61b7c139eca63caced3df62143ce6f5d (to)"
+    },
+    {
+      "name": "0x0c0996d0c3af2892a7a8fc621eb7347ec9b6b9ac (from)"
+    },
+    {
+      "name": "0x0e113904cb1d53cabb324927dffae2f8f6705111 (from)"
+    },
+    {
+      "name": "0x0e113904cb1d53cabb324927dffae2f8f6705111 (to)"
+    },
+    {
+      "name": "0x10d50c91c2bbd939c184cc5bf12a6659e0970427 (to)"
+    },
+    {
+      "name": "0x12949651a3a7cf952a06fc7f97e13e40f377db9c (from)"
+    },
+    {
+      "name": "0x1419fbb4e25663a54fd0c40ea7cf526df7914e8f (from)"
+    },
+    {
+      "name": "0x240543929693333da0946cbf2597c099e4daa7cf (to)"
+    },
+    {
+      "name": "0x2f4d5f419bc0fc919f06cb0295f09ccca6b4fa63 (to)"
+    },
+    {
+      "name": "0x308fc89f45694646097c635eb5b3737c931ad253 (from)"
+    },
+    {
+      "name": "0x308fc89f45694646097c635eb5b3737c931ad253 (to)"
+    },
+    {
+      "name": "0x30fc86a22b89c02a44c16d496a11bee4b0aadee2 (from)"
+    },
+    {
+      "name": "0x33566c9d8be6cf0b23795e0d380e112be9d75836 (to)"
+    },
+    {
+      "name": "0x4188663a85c92eea35b5ad3aa5ca7ceb237c6fe9 (to)"
+    },
+    {
+      "name": "0x430b0fdcf9a27159b58467daf78a87a6733076e4 (from)"
+    },
+    {
+      "name": "0x43bdbe9266999666a551f07873b0ca12060cccd4 (to)"
+    },
+    {
+      "name": "0x4a7a159d60884a23f745f60d40c0d18139a74d87 (from)"
+    },
+    {
+      "name": "0x4a7a159d60884a23f745f60d40c0d18139a74d87 (to)"
+    },
+    {
+      "name": "0x4ab457fa5e03782e2e70df183d9330165b6d6f6c (to)"
+    },
+    {
+      "name": "0x4dd1faa97de21190aaf8fed5918596370d2339e5 (from)"
+    },
+    {
+      "name": "0x50f532de14c0821cae807be938027b458ab23e17 (from)"
+    },
+    {
+      "name": "0x50f532de14c0821cae807be938027b458ab23e17 (to)"
+    },
+    {
+      "name": "0x517fd5cee5e7718ca5962bd1200ceb1230e36a4f (from)"
+    },
+    {
+      "name": "0x552b27e9b43a5d2515ed3c1ec4174325845de020 (from)"
+    },
+    {
+      "name": "0x5574cd2f9e1a0c9e2fce3fe8afcdf5c9e2b01c63 (from)"
+    },
+    {
+      "name": "0x5574cd2f9e1a0c9e2fce3fe8afcdf5c9e2b01c63 (to)"
+    },
+    {
+      "name": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)"
+    },
+    {
+      "name": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)"
+    },
+    {
+      "name": "0x6582fe0e61fce0672d1d507285357220bccfb816 (to)"
+    },
+    {
+      "name": "0x6a704a0e46dcc67a6316644372e261e8fb6f658c (from)"
+    },
+    {
+      "name": "0x6afc9683c78ba5ff6838e77a797d973b429787a1 (from)"
+    },
+    {
+      "name": "0x6afc9683c78ba5ff6838e77a797d973b429787a1 (to)"
+    },
+    {
+      "name": "0x6f299e6511a7224c9e62875826ae3d386b0ad717 (from)"
+    },
+    {
+      "name": "0x745755a6d22fe58ef109aab24d6df66a55c074fd (to)"
+    },
+    {
+      "name": "0x812445783f6f3a6c545a93f6c3572917afe63944 (from)"
+    },
+    {
+      "name": "0x82287cdda3d1b5d26d49ce03280d07b86d54fe54 (to)"
+    },
+    {
+      "name": "0x84669a6c59d84e9de25d4048672ba70185f378fb (to)"
+    },
+    {
+      "name": "0x90e442ee4cde9fa064487e0e6000112737a119c8 (from)"
+    },
+    {
+      "name": "0x93c23a6fa01dcaee9b4c629ff8cd86cf5acaff53 (from)"
+    },
+    {
+      "name": "0x93c23a6fa01dcaee9b4c629ff8cd86cf5acaff53 (to)"
+    },
+    {
+      "name": "0xa2af528689e9df84ea482fbb1ab7685a9cf1e9f9 (from)"
+    },
+    {
+      "name": "0xa3792cff5a1da84e9e5c4158c09377006e236a08 (from)"
+    },
+    {
+      "name": "0xad6eaa735d9df3d7696fd03984379dae02ed8862 (from)"
+    },
+    {
+      "name": "0xb60c61dbb7456f024f9338c739b02be68e3f545c (to)"
+    },
+    {
+      "name": "0xbb4d1dc5c1abec4ea11166ec97e714862863ad1d (to)"
+    },
+    {
+      "name": "0xc37704a457b1ee87eb657cae584a34961e86acac (from)"
+    },
+    {
+      "name": "0xc37704a457b1ee87eb657cae584a34961e86acac (to)"
+    },
+    {
+      "name": "0xccfa0530b9d52f970d1a2daea670ce58e4176389 (from)"
+    },
+    {
+      "name": "0xccfa0530b9d52f970d1a2daea670ce58e4176389 (to)"
+    },
+    {
+      "name": "0xd23281c16935fff3c8cf204c729dbb9b42a980d9 (from)"
+    },
+    {
+      "name": "0xd275e5cb559d6dc236a5f8002a5f0b4c8e610701 (from)"
+    },
+    {
+      "name": "0xd275e5cb559d6dc236a5f8002a5f0b4c8e610701 (to)"
+    },
+    {
+      "name": "0xdd793e706637520b673035a2251906a119c1161a (to)"
+    },
+    {
+      "name": "0xe45f2e61c081c9d00e64e4da3d1ce97b14cf8765 (to)"
+    },
+    {
+      "name": "0xf51578346c4c6e28d9c87abe22c30c995ed146b0 (from)"
+    },
+    {
+      "name": "0xf51578346c4c6e28d9c87abe22c30c995ed146b0 (to)"
+    },
+    {
+      "name": "0xf7ad391171c90ca412ca2c08d56887c93434141b (to)"
+    },
+    {
+      "name": "0xfa103c21ea2df71dfb92b0652f8b1d795e51cdef (to)"
+    },
+    {
+      "name": "0xfc9bf42646ffd5e753b9eedd617a3269c880cba5 (to)"
+    },
+    {
+      "name": "ShieldedUSDT (to)"
+    },
+    {
+      "name": "TAaTeVth6uuFEwWQ9TiAf7JXcgnZr3AbF3 (from)"
+    },
+    {
+      "name": "TCXfhTDMuS6pbfCEoACPcBf2EnnhMAAEWh (to)"
+    },
+    {
+      "name": "TCYZyxdKG7XnuconCgzEmcsoVmvK5vePfw (to)"
+    },
+    {
+      "name": "TD2BiYkihphjrK35YQy1QGxGotSo86vVnk (from)"
+    },
+    {
+      "name": "TD31yRVcGbSbiSVEPn7NQA3aBHNSCRTys7 (to)"
+    },
+    {
+      "name": "TD3q2Q8QYGfYqHEjtcJNQWyVjYVV7D8yf6 (from)"
+    },
+    {
+      "name": "TGBQj6obEx7EF8aVXcYg83xPckw7BKz6ji (from)"
+    },
+    {
+      "name": "THgteQ3XkP7owi9YFySqdH4qrovx3J4ANC (from)"
+    },
+    {
+      "name": "TL6BbiqgRmJK9dBJKMGfwZe25GnowrhHnC (from)"
+    },
+    {
+      "name": "TLkpEhQDifDfviPnpXjNE3Jjwnb2LojJLB (from)"
+    },
+    {
+      "name": "TNp7dcHqLjdaRhGYnePGLHANEAb6QfGV4t (to)"
+    },
+    {
+      "name": "TP87BXY7cjh1vg5ZxLpwbrf93gGRMqMW6Q (from)"
+    },
+    {
+      "name": "TQAvVa8WQtArBWZ2fG1oqVkjEfAbbbXuN2 (from)"
+    },
+    {
+      "name": "TQBL1GBFj5Sr8PnCv4tjfFBV19bhcNk7Ps (from)"
+    },
+    {
+      "name": "TQBL1GBFj5Sr8PnCv4tjfFBV19bhcNk7Ps (to)"
+    },
+    {
+      "name": "TQG4CbrD4BzUJ6UViLFpRWVr8ZjrmkyzfR (from)"
+    },
+    {
+      "name": "TS2zT9XRqpD6ZU7GGGPBZMWhJrfFdr2KVM (from)"
+    },
+    {
+      "name": "TSRFqcB9noBbDUCNDy21ykVvLZWDDERbqF (from)"
+    },
+    {
+      "name": "TTgPB3uTBMJ7cZQsDAghAoAhn2R1JHt7P1 (to)"
+    },
+    {
+      "name": "TW8fMjjAeL4eZGFoxHdZSoKhUhH5RWFMRK (to)"
+    },
+    {
+      "name": "TWLWXfHHXLeUjbGDQMsRELMns9axvHZGdN (from)"
+    },
+    {
+      "name": "TWe5pEnPDetzxgJS4uN26VFg15wWtdcTXc (from)"
+    },
+    {
+      "name": "TXkTcV6yucbnGiqXx24qfPr14eTUXMQgsK (to)"
+    },
+    {
+      "name": "TYAurL8pSySHztXEf3MJkeLmEwaYVVCpyc (to)"
+    },
+    {
+      "name": "lendhub exploiter (to)"
+    }
+  ],
+  "links": [
+    {
+      "source": "TWLWXfHHXLeUjbGDQMsRELMns9axvHZGdN (from)",
+      "target": "#Binance (to)",
+      "value": 2300000
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x43bdbe9266999666a551f07873b0ca12060cccd4 (to)",
+      "value": 2000002.45
+    },
+    {
+      "source": "#Bitfinex (from)",
+      "target": "#kraken (to)",
+      "value": 56000000
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 19057241.2013
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "lendhub exploiter (to)",
+      "value": 1167065.7156
+    },
+    {
+      "source": "0xf51578346c4c6e28d9c87abe22c30c995ed146b0 (from)",
+      "target": "0xf7ad391171c90ca412ca2c08d56887c93434141b (to)",
+      "value": 13069.3765
+    },
+    {
+      "source": "TS2zT9XRqpD6ZU7GGGPBZMWhJrfFdr2KVM (from)",
+      "target": "TYAurL8pSySHztXEf3MJkeLmEwaYVVCpyc (to)",
+      "value": 10000000
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "TW8fMjjAeL4eZGFoxHdZSoKhUhH5RWFMRK (to)",
+      "value": 2099998
+    },
+    {
+      "source": "#Fund (from)",
+      "target": "#Binance (to)",
+      "value": 4000971.0074
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0xb60c61dbb7456f024f9338c739b02be68e3f545c (to)",
+      "value": 1955.9988
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 18795099.5402
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x01ee57dd61b7c139eca63caced3df62143ce6f5d (to)",
+      "value": 2096753.0148
+    },
+    {
+      "source": "0x01ee57dd61b7c139eca63caced3df62143ce6f5d (from)",
+      "target": "#Binance (to)",
+      "value": 2097176.2312
+    },
+    {
+      "source": "#Tether (from)",
+      "target": "#Bitfinex (to)",
+      "value": 35000000
+    },
+    {
+      "source": "0x5574cd2f9e1a0c9e2fce3fe8afcdf5c9e2b01c63 (from)",
+      "target": "#Balancer (to)",
+      "value": 10000000
+    },
+    {
+      "source": "#Balancer (from)",
+      "target": "0x5574cd2f9e1a0c9e2fce3fe8afcdf5c9e2b01c63 (to)",
+      "value": 10000000
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 17924262.2877
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0xb60c61dbb7456f024f9338c739b02be68e3f545c (to)",
+      "value": 2834238.45
+    },
+    {
+      "source": "0x93c23a6fa01dcaee9b4c629ff8cd86cf5acaff53 (from)",
+      "target": "#Binance (to)",
+      "value": 3999997
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "#Fund (to)",
+      "value": 5000189.2114
+    },
+    {
+      "source": "#Fund (from)",
+      "target": "#Binance (to)",
+      "value": 5001193.1382
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x10d50c91c2bbd939c184cc5bf12a6659e0970427 (to)",
+      "value": 3449306.45
+    },
+    {
+      "source": "0xc37704a457b1ee87eb657cae584a34961e86acac (from)",
+      "target": "#Binance (to)",
+      "value": 4501265
+    },
+    {
+      "source": "#Curve (from)",
+      "target": "0x93c23a6fa01dcaee9b4c629ff8cd86cf5acaff53 (to)",
+      "value": 11082761.2975
+    },
+    {
+      "source": "0x93c23a6fa01dcaee9b4c629ff8cd86cf5acaff53 (from)",
+      "target": "#Curve (to)",
+      "value": 11087882
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0xc37704a457b1ee87eb657cae584a34961e86acac (to)",
+      "value": 3999996.45
+    },
+    {
+      "source": "#Circle (from)",
+      "target": "0x308fc89f45694646097c635eb5b3737c931ad253 (to)",
+      "value": 11087882
+    },
+    {
+      "source": "#Null-Address (from)",
+      "target": "#Circle (to)",
+      "value": 11087882
+    },
+    {
+      "source": "0x812445783f6f3a6c545a93f6c3572917afe63944 (from)",
+      "target": "#Binance (to)",
+      "value": 2059900
+    },
+    {
+      "source": "TL6BbiqgRmJK9dBJKMGfwZe25GnowrhHnC (from)",
+      "target": "#Binance (to)",
+      "value": 2564447.9011
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0xbb4d1dc5c1abec4ea11166ec97e714862863ad1d (to)",
+      "value": 2199996.45
+    },
+    {
+      "source": "THgteQ3XkP7owi9YFySqdH4qrovx3J4ANC (from)",
+      "target": "#Binance (to)",
+      "value": 2200000
+    },
+    {
+      "source": "#OKX (from)",
+      "target": "#Binance (to)",
+      "value": 2270468.5711
+    },
+    {
+      "source": "0x12949651a3a7cf952a06fc7f97e13e40f377db9c (from)",
+      "target": "#Compound (to)",
+      "value": 11810292.2836
+    },
+    {
+      "source": "TSRFqcB9noBbDUCNDy21ykVvLZWDDERbqF (from)",
+      "target": "TCYZyxdKG7XnuconCgzEmcsoVmvK5vePfw (to)",
+      "value": 27000100
+    },
+    {
+      "source": "0x4dd1faa97de21190aaf8fed5918596370d2339e5 (from)",
+      "target": "#Binance (to)",
+      "value": 3029260.4842
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 41587667.0674
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 21091409.3963
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "#Coinbase (to)",
+      "value": 8796539.15
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 27024698.9957
+    },
+    {
+      "source": "0x0e113904cb1d53cabb324927dffae2f8f6705111 (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 21086153.5302
+    },
+    {
+      "source": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)",
+      "target": "0x0e113904cb1d53cabb324927dffae2f8f6705111 (to)",
+      "value": 21090153.5302
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "#Fund (to)",
+      "value": 7001492.2304
+    },
+    {
+      "source": "#Contract (from)",
+      "target": "ShieldedUSDT (to)",
+      "value": 3000000
+    },
+    {
+      "source": "TLkpEhQDifDfviPnpXjNE3Jjwnb2LojJLB (from)",
+      "target": "#Contract (to)",
+      "value": 6000031
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 41994092.2459
+    },
+    {
+      "source": "0xccfa0530b9d52f970d1a2daea670ce58e4176389 (from)",
+      "target": "#Binance (to)",
+      "value": 2000000
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 42645792.3477
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 21960513.9757
+    },
+    {
+      "source": "0x0e113904cb1d53cabb324927dffae2f8f6705111 (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 21256782.0325
+    },
+    {
+      "source": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)",
+      "target": "0x0e113904cb1d53cabb324927dffae2f8f6705111 (to)",
+      "value": 21260782.0325
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 10713048.1736
+    },
+    {
+      "source": "TD3q2Q8QYGfYqHEjtcJNQWyVjYVV7D8yf6 (from)",
+      "target": "TD31yRVcGbSbiSVEPn7NQA3aBHNSCRTys7 (to)",
+      "value": 10000000
+    },
+    {
+      "source": "TQG4CbrD4BzUJ6UViLFpRWVr8ZjrmkyzfR (from)",
+      "target": "TNp7dcHqLjdaRhGYnePGLHANEAb6QfGV4t (to)",
+      "value": 10000000
+    },
+    {
+      "source": "#Kraken (from)",
+      "target": "#Binance (to)",
+      "value": 2175655.7532
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 22498438.8425
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 16875831.2473
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 22587577.5822
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x4ab457fa5e03782e2e70df183d9330165b6d6f6c (to)",
+      "value": 2000
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0xccfa0530b9d52f970d1a2daea670ce58e4176389 (to)",
+      "value": 1964.7041
+    },
+    {
+      "source": "0xa3792cff5a1da84e9e5c4158c09377006e236a08 (from)",
+      "target": "#Binance (to)",
+      "value": 2190.9876
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x4a7a159d60884a23f745f60d40c0d18139a74d87 (to)",
+      "value": 3200000
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 23041701.1589
+    },
+    {
+      "source": "0x4a7a159d60884a23f745f60d40c0d18139a74d87 (from)",
+      "target": "#Binance (to)",
+      "value": 6401416.176
+    },
+    {
+      "source": "0x517fd5cee5e7718ca5962bd1200ceb1230e36a4f (from)",
+      "target": "#Lido (to)",
+      "value": 8828
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x4a7a159d60884a23f745f60d40c0d18139a74d87 (to)",
+      "value": 3200000
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 23292674.5711
+    },
+    {
+      "source": "0x6a704a0e46dcc67a6316644372e261e8fb6f658c (from)",
+      "target": "#Binance (to)",
+      "value": 2000000
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 23911904.1965
+    },
+    {
+      "source": "#OKX (from)",
+      "target": "#Binance (to)",
+      "value": 3619245.4393
+    },
+    {
+      "source": "#Circle (from)",
+      "target": "#Binance (to)",
+      "value": 82000000
+    },
+    {
+      "source": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)",
+      "target": "#Binance (to)",
+      "value": 8155907.07
+    },
+    {
+      "source": "0x50f532de14c0821cae807be938027b458ab23e17 (from)",
+      "target": "#Binance (to)",
+      "value": 5500000
+    },
+    {
+      "source": "#Gate (from)",
+      "target": "#Binance (to)",
+      "value": 2390696.4612
+    },
+    {
+      "source": "#Jump-Trading (from)",
+      "target": "#Binance (to)",
+      "value": 2164
+    },
+    {
+      "source": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)",
+      "target": "#Binance (to)",
+      "value": 4100434.43
+    },
+    {
+      "source": "#Null-Address (from)",
+      "target": "#Circle (to)",
+      "value": 20574268.02
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 21112321.0712
+    },
+    {
+      "source": "#Null-Address (from)",
+      "target": "#Circle (to)",
+      "value": 65172791.68
+    },
+    {
+      "source": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)",
+      "target": "#Binance (to)",
+      "value": 3202164.21
+    },
+    {
+      "source": "#Kraken (from)",
+      "target": "#Binance (to)",
+      "value": 5903240.5417
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 59318767.2851
+    },
+    {
+      "source": "0x4a7a159d60884a23f745f60d40c0d18139a74d87 (from)",
+      "target": "#Binance (to)",
+      "value": 3200652.4325
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 26041051.8258
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x82287cdda3d1b5d26d49ce03280d07b86d54fe54 (to)",
+      "value": 8100353.0546
+    },
+    {
+      "source": "#Kraken (from)",
+      "target": "#Binance (to)",
+      "value": 2999995.45
+    },
+    {
+      "source": "0x552b27e9b43a5d2515ed3c1ec4174325845de020 (from)",
+      "target": "0x6582fe0e61fce0672d1d507285357220bccfb816 (to)",
+      "value": 88503.9663
+    },
+    {
+      "source": "0x90e442ee4cde9fa064487e0e6000112737a119c8 (from)",
+      "target": "0xfc9bf42646ffd5e753b9eedd617a3269c880cba5 (to)",
+      "value": 8130.8656
+    },
+    {
+      "source": "#Fund (from)",
+      "target": "#Binance (to)",
+      "value": 3002195.3729
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "#Fund (to)",
+      "value": 7000906.289
+    },
+    {
+      "source": "0x93c23a6fa01dcaee9b4c629ff8cd86cf5acaff53 (from)",
+      "target": "#Binance (to)",
+      "value": 2000232
+    },
+    {
+      "source": "#Curve (from)",
+      "target": "0x93c23a6fa01dcaee9b4c629ff8cd86cf5acaff53 (to)",
+      "value": 19771195.0235
+    },
+    {
+      "source": "0x93c23a6fa01dcaee9b4c629ff8cd86cf5acaff53 (from)",
+      "target": "#Curve (to)",
+      "value": 19781023
+    },
+    {
+      "source": "#Circle (from)",
+      "target": "0x308fc89f45694646097c635eb5b3737c931ad253 (to)",
+      "value": 19781023
+    },
+    {
+      "source": "#Null-Address (from)",
+      "target": "#Circle (to)",
+      "value": 19781023
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 29972630.8517
+    },
+    {
+      "source": "#Fund (from)",
+      "target": "#Binance (to)",
+      "value": 9002257.908
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 28392655.689
+    },
+    {
+      "source": "#Fund (from)",
+      "target": "#Binance (to)",
+      "value": 9002340
+    },
+    {
+      "source": "#Curve (from)",
+      "target": "0x50f532de14c0821cae807be938027b458ab23e17 (to)",
+      "value": 13205964.8029
+    },
+    {
+      "source": "0x50f532de14c0821cae807be938027b458ab23e17 (from)",
+      "target": "#Curve (to)",
+      "value": 13212593
+    },
+    {
+      "source": "#Circle (from)",
+      "target": "0x308fc89f45694646097c635eb5b3737c931ad253 (to)",
+      "value": 13212593
+    },
+    {
+      "source": "#Null-Address (from)",
+      "target": "#Circle (to)",
+      "value": 13212583.72
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 12291121.0847
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0xb60c61dbb7456f024f9338c739b02be68e3f545c (to)",
+      "value": 1978.8996
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 28255313.2557
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 29023996.6331
+    },
+    {
+      "source": "#Coinbase (from)",
+      "target": "#Binance (to)",
+      "value": 5008222.23
+    },
+    {
+      "source": "#Kraken (from)",
+      "target": "#Binance (to)",
+      "value": 2016062.1873
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x240543929693333da0946cbf2597c099e4daa7cf (to)",
+      "value": 1835
+    },
+    {
+      "source": "#Kraken (from)",
+      "target": "#Binance (to)",
+      "value": 2082472.2132
+    },
+    {
+      "source": "#OKX (from)",
+      "target": "#Binance (to)",
+      "value": 2842095.3888
+    },
+    {
+      "source": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)",
+      "target": "#Binance (to)",
+      "value": 3258368.3
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 20736756.8412
+    },
+    {
+      "source": "#Fund (from)",
+      "target": "#Binance (to)",
+      "value": 7001610.1406
+    },
+    {
+      "source": "0xd275e5cb559d6dc236a5f8002a5f0b4c8e610701 (from)",
+      "target": "#Aave (to)",
+      "value": 19999993.2971
+    },
+    {
+      "source": "#Curve (from)",
+      "target": "0x6afc9683c78ba5ff6838e77a797d973b429787a1 (to)",
+      "value": 15877735.5076
+    },
+    {
+      "source": "0x6afc9683c78ba5ff6838e77a797d973b429787a1 (from)",
+      "target": "#Curve (to)",
+      "value": 15884139
+    },
+    {
+      "source": "0x4a7a159d60884a23f745f60d40c0d18139a74d87 (from)",
+      "target": "#Binance (to)",
+      "value": 3200462.1513
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 39882637.2855
+    },
+    {
+      "source": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)",
+      "target": "#Binance (to)",
+      "value": 2764385.25
+    },
+    {
+      "source": "TD2BiYkihphjrK35YQy1QGxGotSo86vVnk (from)",
+      "target": "TCXfhTDMuS6pbfCEoACPcBf2EnnhMAAEWh (to)",
+      "value": 69000000
+    },
+    {
+      "source": "0x308fc89f45694646097c635eb5b3737c931ad253 (from)",
+      "target": "0x6afc9683c78ba5ff6838e77a797d973b429787a1 (to)",
+      "value": 15884139
+    },
+    {
+      "source": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)",
+      "target": "#Binance (to)",
+      "value": 2178348.94
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 21401481.7429
+    },
+    {
+      "source": "#Circle (from)",
+      "target": "0x308fc89f45694646097c635eb5b3737c931ad253 (to)",
+      "value": 15884139
+    },
+    {
+      "source": "#Tether-Treasury (from)",
+      "target": "#Binance (to)",
+      "value": 15100000
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "#kraken (to)",
+      "value": 2000098.0118
+    },
+    {
+      "source": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)",
+      "target": "#Binance (to)",
+      "value": 2568961.45
+    },
+    {
+      "source": "#Fund (from)",
+      "target": "#Binance (to)",
+      "value": 8001264.5021
+    },
+    {
+      "source": "0x4a7a159d60884a23f745f60d40c0d18139a74d87 (from)",
+      "target": "#Binance (to)",
+      "value": 3200616.3984
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x2f4d5f419bc0fc919f06cb0295f09ccca6b4fa63 (to)",
+      "value": 3099996.45
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 25717961.2547
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 23050526.5607
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0xd275e5cb559d6dc236a5f8002a5f0b4c8e610701 (to)",
+      "value": 5000014.4835
+    },
+    {
+      "source": "TQAvVa8WQtArBWZ2fG1oqVkjEfAbbbXuN2 (from)",
+      "target": "#Binance (to)",
+      "value": 2000000
+    },
+    {
+      "source": "#Kraken (from)",
+      "target": "#Binance (to)",
+      "value": 2474467.8335
+    },
+    {
+      "source": "#Kraken (from)",
+      "target": "#Binance (to)",
+      "value": 2127734.4019
+    },
+    {
+      "source": "#OKX (from)",
+      "target": "#Binance (to)",
+      "value": 2868308.2554
+    },
+    {
+      "source": "0x30fc86a22b89c02a44c16d496a11bee4b0aadee2 (from)",
+      "target": "#Binance (to)",
+      "value": 3000000
+    },
+    {
+      "source": "0xa2af528689e9df84ea482fbb1ab7685a9cf1e9f9 (from)",
+      "target": "#Binance (to)",
+      "value": 2500000
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x33566c9d8be6cf0b23795e0d380e112be9d75836 (to)",
+      "value": 4599996.45
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 34890336.4102
+    },
+    {
+      "source": "TP87BXY7cjh1vg5ZxLpwbrf93gGRMqMW6Q (from)",
+      "target": "TQBL1GBFj5Sr8PnCv4tjfFBV19bhcNk7Ps (to)",
+      "value": 64707696.53
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 23485786.9726
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 23558130.3757
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 23427966.2921
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 23427966.2921
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x33566c9d8be6cf0b23795e0d380e112be9d75836 (to)",
+      "value": 9999996.45
+    },
+    {
+      "source": "0xad6eaa735d9df3d7696fd03984379dae02ed8862 (from)",
+      "target": "#Binance (to)",
+      "value": 2999
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0xfa103c21ea2df71dfb92b0652f8b1d795e51cdef (to)",
+      "value": 2467.3941
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x4188663a85c92eea35b5ad3aa5ca7ceb237c6fe9 (to)",
+      "value": 5999996.45
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x33566c9d8be6cf0b23795e0d380e112be9d75836 (to)",
+      "value": 19999996.45
+    },
+    {
+      "source": "0x0c0996d0c3af2892a7a8fc621eb7347ec9b6b9ac (from)",
+      "target": "0xdd793e706637520b673035a2251906a119c1161a (to)",
+      "value": 125845477
+    },
+    {
+      "source": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)",
+      "target": "#Binance (to)",
+      "value": 2314569.77
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x33566c9d8be6cf0b23795e0d380e112be9d75836 (to)",
+      "value": 3293.4474
+    },
+    {
+      "source": "0xd23281c16935fff3c8cf204c729dbb9b42a980d9 (from)",
+      "target": "0xdd793e706637520b673035a2251906a119c1161a (to)",
+      "value": 18604000
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x84669a6c59d84e9de25d4048672ba70185f378fb (to)",
+      "value": 1964.1264
+    },
+    {
+      "source": "TAaTeVth6uuFEwWQ9TiAf7JXcgnZr3AbF3 (from)",
+      "target": "#Binance (to)",
+      "value": 3000000
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "#kraken-5 (to)",
+      "value": 1786
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x4a7a159d60884a23f745f60d40c0d18139a74d87 (to)",
+      "value": 3200000
+    },
+    {
+      "source": "#Fund (from)",
+      "target": "#Aave (to)",
+      "value": 14000007.1143
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "#Fund (to)",
+      "value": 9000743.9404
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 25677092.4204
+    },
+    {
+      "source": "#Fund (from)",
+      "target": "#Binance (to)",
+      "value": 9002548.4331
+    },
+    {
+      "source": "#Curve (from)",
+      "target": "0x93c23a6fa01dcaee9b4c629ff8cd86cf5acaff53 (to)",
+      "value": 13091444.6608
+    },
+    {
+      "source": "0x93c23a6fa01dcaee9b4c629ff8cd86cf5acaff53 (from)",
+      "target": "#Curve (to)",
+      "value": 13097667
+    },
+    {
+      "source": "0x308fc89f45694646097c635eb5b3737c931ad253 (from)",
+      "target": "0x93c23a6fa01dcaee9b4c629ff8cd86cf5acaff53 (to)",
+      "value": 13097667
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "#Fund (to)",
+      "value": 7000247.1198
+    },
+    {
+      "source": "#Fund (from)",
+      "target": "#Binance (to)",
+      "value": 7001650.7748
+    },
+    {
+      "source": "#Tether-Treasury (from)",
+      "target": "#Binance (to)",
+      "value": 26700000
+    },
+    {
+      "source": "0x430b0fdcf9a27159b58467daf78a87a6733076e4 (from)",
+      "target": "0xf51578346c4c6e28d9c87abe22c30c995ed146b0 (to)",
+      "value": 13072.97
+    },
+    {
+      "source": "TQBL1GBFj5Sr8PnCv4tjfFBV19bhcNk7Ps (from)",
+      "target": "TTgPB3uTBMJ7cZQsDAghAoAhn2R1JHt7P1 (to)",
+      "value": 26580000
+    },
+    {
+      "source": "#OKX (from)",
+      "target": "#Binance (to)",
+      "value": 7204374.026
+    },
+    {
+      "source": "#Coinbase (from)",
+      "target": "#Binance (to)",
+      "value": 4589545
+    },
+    {
+      "source": "TGBQj6obEx7EF8aVXcYg83xPckw7BKz6ji (from)",
+      "target": "#Binance (to)",
+      "value": 3000000
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "#Fund (to)",
+      "value": 7000226.124
+    },
+    {
+      "source": "#Circle (from)",
+      "target": "#Null-Address (to)",
+      "value": 25151028.21
+    },
+    {
+      "source": "0x6f299e6511a7224c9e62875826ae3d386b0ad717 (from)",
+      "target": "#Binance (to)",
+      "value": 32869
+    },
+    {
+      "source": "#Tether-Treasury (from)",
+      "target": "#Binance (to)",
+      "value": 26000000
+    },
+    {
+      "source": "#Cobo (from)",
+      "target": "0xe45f2e61c081c9d00e64e4da3d1ce97b14cf8765 (to)",
+      "value": 102410.99
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "#OKX (to)",
+      "value": 2275001
+    },
+    {
+      "source": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (from)",
+      "target": "#Binance (to)",
+      "value": 2056097.68
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "TXkTcV6yucbnGiqXx24qfPr14eTUXMQgsK (to)",
+      "value": 4200000
+    },
+    {
+      "source": "#OKX (from)",
+      "target": "#Binance (to)",
+      "value": 2709000.4636
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 27130395.4074
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0x745755a6d22fe58ef109aab24d6df66a55c074fd (to)",
+      "value": 1315.7873
+    },
+    {
+      "source": "#Circle (from)",
+      "target": "#Null-Address (to)",
+      "value": 16927105.53
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 20964449.2381
+    },
+    {
+      "source": "0xd275e5cb559d6dc236a5f8002a5f0b4c8e610701 (from)",
+      "target": "#Circle (to)",
+      "value": 18000000
+    },
+    {
+      "source": "#Aave (from)",
+      "target": "0xd275e5cb559d6dc236a5f8002a5f0b4c8e610701 (to)",
+      "value": 18000000
+    },
+    {
+      "source": "#Coinbase (from)",
+      "target": "#Binance (to)",
+      "value": 5664511.4757
+    },
+    {
+      "source": "#Binance (from)",
+      "target": "0xd275e5cb559d6dc236a5f8002a5f0b4c8e610701 (to)",
+      "value": 1527.9988
+    },
+    {
+      "source": "TWe5pEnPDetzxgJS4uN26VFg15wWtdcTXc (from)",
+      "target": "#Binance (to)",
+      "value": 3000000
+    },
+    {
+      "source": "#Coinbase (from)",
+      "target": "#Binance (to)",
+      "value": 2194792.5151
+    },
+    {
+      "source": "0x1419fbb4e25663a54fd0c40ea7cf526df7914e8f (from)",
+      "target": "#Binance (to)",
+      "value": 2816311.4572
+    },
+    {
+      "source": "TWe5pEnPDetzxgJS4uN26VFg15wWtdcTXc (from)",
+      "target": "#Binance (to)",
+      "value": 5000000
+    },
+    {
+      "source": "#Huobi (from)",
+      "target": "#Binance (to)",
+      "value": 5604708.0043
+    },
+    {
+      "source": "#Uniswap (from)",
+      "target": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9 (to)",
+      "value": 13274778.4266
+    },
+    {
+      "source": "#Circle (from)",
+      "target": "0x308fc89f45694646097c635eb5b3737c931ad253 (to)",
+      "value": 13097667
+    }
+  ]
+}
