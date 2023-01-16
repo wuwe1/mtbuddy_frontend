@@ -57,6 +57,12 @@ const drawSankey = (chart: EChartsType, links: LINK[]) => {
           top: 0,
           bottom: 0,
           layoutIterations: 0,
+          tooltip: {
+            formatter: ({ data }) => {
+              const { source, target, value, date, unit } = data
+              return `${(new Date(date * 1000)).toLocaleString()} <br /> ${source} -> ${target} <br /> ${value} ${unit}`
+            },
+          },
           emphasis: {
             focus: 'adjacency',
           },
