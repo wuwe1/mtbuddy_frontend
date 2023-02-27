@@ -14,6 +14,8 @@ const date = $ref([new Date('2023-01-02'), new Date('2023-01-03')])
 const from = $ref('')
 const to = $ref('')
 let count = $ref(0)
+const LATEST_TX_DATE = new Date(data.transactions[0].date * 1000).toLocaleString()
+const OLDEST_TX_DATE = new Date(data.transactions[data.transactions.length - 1].date * 1000).toLocaleString()
 
 interface LINK {
   source: string
@@ -135,6 +137,8 @@ onMounted(() => {
         <Cell label="total txns" :value="data.transactions.length" />
         <Cell label="unique from" :value="data.unique_from.length" />
         <Cell label="unique to" :value="data.unique_to.length" />
+        <Cell label="date of oldest tx" :value="OLDEST_TX_DATE" />
+        <Cell label="date of latest tx" :value="LATEST_TX_DATE" />
         <Cell label="txns in range" :value="count" />
         <CellInput v-model="from" label="from" />
         <CellInput v-model="to" label="to" />
