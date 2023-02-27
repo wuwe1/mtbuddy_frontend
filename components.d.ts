@@ -7,6 +7,10 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Cell: typeof import('./src/components/Cell.vue')['default']
+    CellInput: typeof import('./src/components/CellInput.vue')['default']
+    Footer: typeof import('./src/components/Footer.vue')['default']
+    Input: typeof import('./src/components/Input.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Sankey: typeof import('./src/components/Sankey.vue')['default']

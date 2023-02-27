@@ -1,21 +1,19 @@
 <script setup lang="ts">
 import type { EChartsType } from 'echarts'
 import { init } from 'echarts'
+import VueDatePicker from '@vuepic/vue-datepicker'
 import data from '../data/sankey.json'
-const TOTAL_TXNS = data.transactions.length
 
 defineOptions({
   name: 'IndexPage',
 })
 
-const dateFrom = $ref('2023-01-02')
-const dateTo = $ref('2023-01-03')
-const limit = $ref(200)
+const limit = $ref('')
+const skip = $ref('')
+const date = $ref([new Date('2023-01-02'), new Date('2023-01-03')])
+const from = $ref('')
+const to = $ref('')
 let count = $ref(0)
-
-const isValidDate = (d: string) => {
-  return /\d{2}.\d{2}.\d{2}/.test(d)
-}
 
 interface LINK {
   source: string
@@ -26,6 +24,14 @@ interface LINK {
 
 interface NODE {
   name: string
+}
+
+interface TransactionData {
+  source: string
+  target: string
+  value: number
+  date: number
+  unit: string
 }
 
 const getNodes = (links: LINK[]): NODE[] => {
@@ -58,7 +64,7 @@ const drawSankey = (chart: EChartsType, links: LINK[]) => {
           bottom: 0,
           layoutIterations: 0,
           tooltip: {
-            formatter: ({ data }) => {
+            formatter: ({ data }: { data: TransactionData }) => {
               const { source, target, value, date, unit } = data
               return `${(new Date(date * 1000)).toLocaleString()} <br /> ${source} -> ${target} <br /> ${value} ${unit}`
             },
@@ -77,17 +83,31 @@ const drawSankey = (chart: EChartsType, links: LINK[]) => {
 }
 
 let chartInstance: EChartsType
-const timestamp = (d: string) => {
-  return (new Date(d)).getTime() / 1000
-}
 const render = () => {
-  const txns = data.transactions.filter((tx) => {
-    return timestamp(dateFrom) <= tx.date && tx.date <= timestamp(dateTo)
+  const normalize = (d: Date) => {
+    return d.getTime() / 1000
+  }
+  let txns = data.transactions.filter((tx) => {
+    const [dateFrom, dateTo] = date
+    return normalize(dateFrom) <= tx.date && tx.date <= normalize(dateTo)
   })
+  const _from = from.trim()
+  if (_from.length > 0) {
+    txns = txns.filter((tx) => {
+      return tx.source.toLowerCase().includes(_from.toLowerCase())
+    })
+  }
+  const _to = to.trim()
+  if (_to.length > 0) {
+    txns = txns.filter((tx) => {
+      return tx.target.toLowerCase().includes(_to.toLowerCase())
+    })
+  }
 
   count = txns.length
-
-  drawSankey(chartInstance, txns.slice(0, limit))
+  const _skip = Number(skip) ? Number(skip) : 0
+  const _limit = Number(limit) ? Number(limit) : 200
+  drawSankey(chartInstance, txns.slice(_skip, _skip + _limit))
 }
 
 onMounted(() => {
@@ -98,49 +118,52 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
-    <div i-carbon-basketball text-4xl inline-block />
-    <p>
-      Misttrack Alert Buddy
-    </p>
+  <div class="flex h-screen">
+    <!-- Sidebar -->
+    <div class="border-r dark:border-slate-600/75 w-68 flex-shrink-0">
+      <div p-2>
+        <div i-carbon-basketball text-4xl inline-block />
+        <p
+          text-xl font-bold text-transparent font-sans
+          bg-clip-text bg-gradient-to-r
+          from-yellow-500 to-blue-500
+        >
+          Misttrack Alert Buddy
+        </p>
+      </div>
+      <div border-t class="dark:border-slate-600/75">
+        <Cell label="total txns" :value="data.transactions.length" />
+        <Cell label="unique from" :value="data.unique_from.length" />
+        <Cell label="unique to" :value="data.unique_to.length" />
+        <Cell label="txns in range" :value="count" />
+        <CellInput v-model="from" label="from" />
+        <CellInput v-model="to" label="to" />
+        <CellInput v-model="skip" label="skip" placeholder="0" />
+        <CellInput v-model="limit" label="limit" placeholder="200" />
 
-    <span text-blue-500>
-      total txns: {{ TOTAL_TXNS }}
-    </span>
-    <span> | </span>
-    <span text-blue-500>total txns in range: {{ count }}</span>
-    <br>
+        <div py-2 flex justify-center>
+          <VueDatePicker v-model="date" range inline :dark="isDark" />
+        </div>
 
-    <TheInput
-      v-model="dateFrom"
-      placeholder="2023/01/01 (from)"
-      autocomplete="false"
-    />
+        <Cell label="date (from)" :value="date[0].toLocaleString()" />
+        <Cell label="date (to)" :value="date[1].toLocaleString()" />
 
-    <span m-2>-</span>
+        <!-- :disabled="!isValidDate(dateFrom) || !isValidDate(dateTo)" -->
+        <button
+          h-8 text-sm btn block w-full rounded-none
+          mt-2
+          bg-blue-700 hover:bg-blue-500 active:bg-blue-300
+          @click="render"
+        >
+          Go
+        </button>
+      </div>
+      <Footer />
+    </div>
 
-    <TheInput
-      v-model="dateTo"
-      placeholder="2023/01/02 (to)"
-      autocomplete="false"
-    />
-
-    <span m-2 />
-
-    <TheInput
-      v-model="limit"
-      placeholder="limit"
-      autocomplete="false"
-    />
-
-    <button
-      class="m-4 h-8 text-sm btn"
-      bg-blue-700 hover:bg-blue-500 active:bg-blue-300
-      :disabled="!isValidDate(dateFrom) || !isValidDate(dateTo)"
-      @click="render"
-    >
-      Go
-    </button>
-    <div id="sankey" w-max-200 h-600 m-auto />
+    <!-- Content -->
+    <div w-full>
+      <div id="sankey" py-8 max-w-screen-md h-screen m-auto overflow-hidden />
+    </div>
   </div>
 </template>
