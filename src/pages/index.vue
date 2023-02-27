@@ -2,7 +2,10 @@
 import type { EChartsType } from 'echarts'
 import { init } from 'echarts'
 import VueDatePicker from '@vuepic/vue-datepicker'
-import data from '../data/sankey.json'
+import transactions from '../data/transactions.json'
+
+const uniqueFrom = [...new Set(transactions.map(tx => tx.source))].length
+const uniqueTo = [...new Set(transactions.map(tx => tx.target))].length
 
 defineOptions({
   name: 'IndexPage',
@@ -14,8 +17,8 @@ const date = $ref([new Date('2023-01-02'), new Date('2023-01-03')])
 const from = $ref('')
 const to = $ref('')
 let count = $ref(0)
-const LATEST_TX_DATE = new Date(data.transactions[0].date * 1000).toLocaleString()
-const OLDEST_TX_DATE = new Date(data.transactions[data.transactions.length - 1].date * 1000).toLocaleString()
+const LATEST_TX_DATE = new Date(transactions[0].date * 1000).toLocaleString()
+const OLDEST_TX_DATE = new Date(transactions[transactions.length - 1].date * 1000).toLocaleString()
 
 interface LINK {
   source: string
@@ -89,7 +92,7 @@ const render = () => {
   const normalize = (d: Date) => {
     return d.getTime() / 1000
   }
-  let txns = data.transactions.filter((tx) => {
+  let txns = transactions.filter((tx) => {
     const [dateFrom, dateTo] = date
     return normalize(dateFrom) <= tx.date && tx.date <= normalize(dateTo)
   })
@@ -134,9 +137,9 @@ onMounted(() => {
         </p>
       </div>
       <div border-t class="dark:border-slate-600/75">
-        <Cell label="total txns" :value="data.transactions.length" />
-        <Cell label="unique from" :value="data.unique_from.length" />
-        <Cell label="unique to" :value="data.unique_to.length" />
+        <Cell label="total txns" :value="transactions.length" />
+        <Cell label="unique from" :value="uniqueFrom.length" />
+        <Cell label="unique to" :value="uniqueTo.length" />
         <Cell label="date of oldest tx" :value="OLDEST_TX_DATE" />
         <Cell label="date of latest tx" :value="LATEST_TX_DATE" />
         <Cell label="txns in range" :value="count" />
