@@ -4,8 +4,8 @@ import { init } from 'echarts'
 import VueDatePicker from '@vuepic/vue-datepicker'
 import transactions from '../data/transactions.json'
 
-const uniqueFrom = [...new Set(transactions.map(tx => tx.source))].length
-const uniqueTo = [...new Set(transactions.map(tx => tx.target))].length
+const uniqueFrom = new Set(transactions.map(tx => tx.source))
+const uniqueTo = new Set(transactions.map(tx => tx.target))
 
 defineOptions({
   name: 'IndexPage',
@@ -138,8 +138,8 @@ onMounted(() => {
       </div>
       <div border-t class="dark:border-slate-600/75">
         <Cell label="total txns" :value="transactions.length" />
-        <Cell label="unique from" :value="uniqueFrom.length" />
-        <Cell label="unique to" :value="uniqueTo.length" />
+        <Cell label="unique from" :value="[...uniqueFrom].length" />
+        <Cell label="unique to" :value="[...uniqueTo].length" />
         <Cell label="date of oldest tx" :value="OLDEST_TX_DATE" />
         <Cell label="date of latest tx" :value="LATEST_TX_DATE" />
         <Cell label="txns in range" :value="count" />
