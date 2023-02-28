@@ -152,8 +152,8 @@ onMounted(() => {
         <Cell label="date of oldest tx" :value="OLDEST_TX_DATE" />
         <Cell label="date of latest tx" :value="LATEST_TX_DATE" />
         <Cell label="txns in range" :value="count" />
-        <CellInput v-model="from" label="from" />
-        <CellInput v-model="to" label="to" />
+        <CellInput v-model="from" label="from" placeholder="Tornado" />
+        <CellInput v-model="to" label="to" placeholder="Uniswap" />
         <CellInput v-model="skip" label="skip" placeholder="0" />
         <CellInput v-model="limit" label="limit" placeholder="200" />
 
