@@ -1,0 +1,32 @@
+name: Update Transactions
+on:
+  schedule:
+    - cron: '42 4,16 * * *'
+jobs:
+  update-transactions:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup repo
+      uses: actions/checkout@v3
+    - name: Setup deno
+      uses: denoland/setup-deno@v1
+      with:
+        deno-version: v1.x
+    - name: Run script
+      env:
+        API_ID: ${{ secrets.API_ID }}
+        API_HASH: ${{ secrets.API_HASH }}
+        SESSION: ${{ secrets.SESSION }}
+      run: | 
+        cd scripts &&
+        deno run -A main.ts &&
+        deno run -A parse.ts &&
+        mv ./transactions.json ../src/data
+    - name: Commit and push if changed
+      run: |
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
