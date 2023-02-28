@@ -69,9 +69,18 @@ const drawSankey = (chart: EChartsType, links: LINK[]) => {
           bottom: 0,
           layoutIterations: 0,
           tooltip: {
+            padding: 0,
+            borderWidth: 0,
+            backgroundColor: '#1b1b1b',
             formatter: ({ data }: { data: TransactionData }) => {
               const { source, target, value, date, unit } = data
-              return `${(new Date(date * 1000)).toLocaleString()} <br /> ${source} -> ${target} <br /> ${value} ${unit}`
+              return `<div style="color: white; padding: 5px">
+              ${(new Date(date * 1000)).toLocaleString()}
+              <br /> From: ${source.slice(0, -3)}
+              <br /> To: ${target.slice(0, -3)}
+              <br /> <span style="color: gold">${value}</span> <b>${unit}</b>
+              </div>
+              `
             },
           },
           emphasis: {
