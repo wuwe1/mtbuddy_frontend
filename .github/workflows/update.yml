@@ -1,5 +1,6 @@
 name: Update Transactions
 on:
+  workflow_dispatch:
   schedule:
     - cron: '42 4,16 * * *'
 jobs:
